@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    {% if user %}
+    <title>欢迎{{user.username}}来到博客!</title>
+    {% else %}
+        <title>欢迎来到博客!</title>
+    {% endif %}
+
+</head>
+<body>
+<h1> Hello!</h1>
+</body>
+</html>
